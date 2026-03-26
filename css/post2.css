@@ -63,6 +63,15 @@ nav a:hover{
 color:#ff6fa5;
 }
 
+
+
+
+nav a{
+display:block;
+margin:10px 0;
+}
+
+
 /* HERO IMAGE */
 
 .post-hero img{
