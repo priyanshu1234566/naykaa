@@ -38,7 +38,7 @@ Page	Description
 beauty-blog-website
 │
 ├── index.html
-├── blog.html
+├── Post1.html
 ├── contact.html
 │
 ├── css
@@ -102,7 +102,7 @@ Digital marketing blog presentation
 
 👨‍💻 Author
 
-Name: Your Name
+Name: <b>PRIYANSHU KUMAR</b>
 Course: Digital Marketing / Web Development
 Project: Beauty Products Blog Website
 

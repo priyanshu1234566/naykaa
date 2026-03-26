@@ -1,34 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Natural Face Mask</title>
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="./css/post3.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
 </head>
 
 <body>
 
 <header>
 <h1>Natural Face Masks</h1>
+<p>Easy DIY face masks for glowing and healthy skin</p>
+<button id="darkToggle">
+<i class="fa-solid fa-moon"></i>
+</button>
+
 </header>
 
 <nav>
 <a href="index.html">Home</a>
+<a href="post1.html">Organic Skincare</a>
+<a href="post2.html">Lip Care</a>
+<a href="post3.html">Face Mask</a>
 </nav>
+
+
+<!-- HERO IMAGE -->
+
+<section class="post-hero">
+
+<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273">
+
+</section>
+
 
 <section class="container">
 
-<h2>Homemade Face Mask</h2>
+<h2 data-aos="fade-up">Benefits of Natural Face Masks</h2>
 
-<p>Face masks made from natural ingredients can improve skin glow.</p>
+<p data-aos="fade-up">
+Natural face masks are made from simple ingredients available in the kitchen.
+They help nourish the skin, improve glow and remove impurities without
+using harsh chemicals.
+</p>
 
-<ul>
-<li>Honey + Lemon mask</li>
-<li>Turmeric + Yogurt mask</li>
-<li>Oatmeal face mask</li>
+
+<!-- IMAGE GALLERY -->
+
+<div class="image-gallery">
+
+<img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348" data-aos="zoom-in">
+
+<img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc" data-aos="zoom-in">
+
+<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" data-aos="zoom-in">
+
+</div>
+
+
+<h2 data-aos="fade-up">Popular Homemade Face Masks</h2>
+
+<ul class="benefits" data-aos="fade-up">
+
+<li>Honey and Lemon Mask</li>
+<li>Turmeric and Yogurt Mask</li>
+<li>Oatmeal Face Mask</li>
+<li>Aloe Vera Face Mask</li>
+
 </ul>
 
+
+<h2 data-aos="fade-up">DIY Face Mask Recipes</h2>
+
+<p data-aos="fade-up">
+You can easily make face masks at home using natural ingredients that are
+good for your skin.
+</p>
+
+<div class="image-gallery">
+
+<img src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb" data-aos="zoom-in">
+
+<img src="https://images.unsplash.com/photo-1598514982431-0a4b2b2f4d6e" data-aos="zoom-in">
+
+<img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" data-aos="zoom-in">
+
+</div>
+
+
+<h2 data-aos="fade-up">How to Apply Face Mask</h2>
+
+<ul class="benefits" data-aos="fade-up">
+
+<li>Clean your face before applying the mask</li>
+<li>Apply evenly on the skin</li>
+<li>Leave for 15–20 minutes</li>
+<li>Wash with lukewarm water</li>
+
+</ul>
+
+
+<p data-aos="fade-up">
+Regular use of natural face masks can improve skin texture, reduce acne
+and give your skin a natural glow.
+</p>
+
 </section>
+
+
+<!-- RELATED POSTS -->
+
+<section class="related-posts">
+
+<h2>Related Posts</h2>
+
+<div class="related-container">
+
+<div class="related-card">
+
+<img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348">
+
+<h3>Organic Skincare</h3>
+
+<a href="post1.html">Read Article</a>
+
+</div>
+
+<div class="related-card">
+
+<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9">
+
+<h3>Lip Care Tips</h3>
+
+<a href="post2.html">Read Article</a>
+
+</div>
+
+</div>
+
+</section>
+
 
 <footer class="footer">
 
@@ -66,6 +188,25 @@
 </div>
 
 </footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+duration:1000
+});
+
+const toggle = document.getElementById("darkToggle");
+
+toggle.onclick = () => {
+
+document.body.classList.toggle("dark");
+
+}
+
+</script>
 
 </body>
 </html>
