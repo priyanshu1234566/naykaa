@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -9,7 +10,8 @@
 
 <link rel="stylesheet" href="./css/style.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
@@ -19,6 +21,10 @@
 
 <h1>Beauty Care Blog</h1>
 <p>Tips for Healthy & Beautiful Skin</p>
+
+<button id="darkToggle">
+<i class="fa-solid fa-moon"></i>
+</button>
 
 </header>
 
@@ -33,59 +39,71 @@
 </nav>
 
 
-<!-- HERO SECTION -->
+<!-- SEARCH BAR -->
 
-<section class="hero">
+<div class="search-box">
 
-<h2>Discover the Secret of Natural Beauty</h2>
-<p>Explore skincare tips, beauty products and natural remedies.</p>
+<input type="text" id="searchInput" placeholder="Search blog...">
 
-</section>
+</div>
 
 
-<!-- BLOG POSTS -->
+<!-- FILTER BUTTONS -->
+
+<div class="filters">
+
+<button onclick="filterPosts('all')">All</button>
+<button onclick="filterPosts('skincare')">Skincare</button>
+<button onclick="filterPosts('lips')">Lips</button>
+<button onclick="filterPosts('mask')">Face Mask</button>
+
+</div>
+
 
 <section class="container">
 
-<div class="post">
+<div class="post skincare">
 
-<img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348" alt="Skincare">
+<img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348">
 
 <h2>Organic Skincare Products</h2>
 
-<p>Organic skincare products are made with natural ingredients and are safe for the skin.</p>
+<p>Organic skincare products are made with natural ingredients.</p>
 
 <a href="post1.html">Read More</a>
 
 </div>
 
 
-<div class="post">
+<div class="post lips">
 
-<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9" alt="Lip Care">
+<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9">
 
 <h2>Best Lip Care Tips</h2>
 
-<p>Lips are very sensitive and need proper care to stay soft and pink.</p>
+<p>Lips are very sensitive and need proper care.</p>
 
 <a href="post2.html">Read More</a>
 
 </div>
 
 
-<div class="post">
+<div class="post mask">
 
-<img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc" alt="Face Mask">
+<img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc">
 
 <h2>Natural Face Masks</h2>
 
-<p>Natural face masks help in glowing skin and removing impurities.</p>
+<p>Natural face masks improve glowing skin.</p>
 
 <a href="post3.html">Read More</a>
 
 </div>
 
 </section>
+
+
+<script src="script.js"></script>
 
 
 
