@@ -35,19 +35,20 @@ post.style.display = text.includes(filter) ? "block" : "none";
 function filterPosts(category){
 
 let posts = document.querySelectorAll(".post");
+let buttons = document.querySelectorAll(".filters button");
+
+buttons.forEach(btn => btn.classList.remove("active"));
+
+event.target.classList.add("active");
 
 posts.forEach(post => {
 
 if(category === "all" || post.classList.contains(category)){
-
 post.style.display = "block";
-
 }
 
 else{
-
 post.style.display = "none";
-
 }
 
 });
