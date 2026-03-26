@@ -177,41 +177,44 @@ transform:translateY(-8px);
 
 /* DARK MODE BUTTON */
 
-#darkModeToggle{
-background:#ff2f7a;
-border:none;
+#darkToggle{
+position:absolute;
+right:20px;
+top:20px;
+background:#222;
 color:white;
-padding:8px 12px;
-border-radius:20px;
+border:none;
+padding:10px;
+border-radius:50%;
 cursor:pointer;
 font-size:16px;
 }
 
-/* DARK MODE */
+/* DARK MODE STYLE */
 
-.dark-mode{
-background:#121212;
+.dark{
+background:#111;
 color:white;
 }
 
-.dark-mode nav{
-background:#1f1f1f;
+.dark header{
+background:#222;
 }
 
-.dark-mode .container{
-background:#121212;
+.dark nav{
+background:#111;
 }
 
-.dark-mode .related-posts{
-background:#1a1a1a;
+.dark .container{
+color:#ddd;
 }
 
-.dark-mode .related-card{
-background:#1f1f1f;
+.dark .related-card{
+background:#222;
 color:white;
 }
 
-.dark-mode footer{
+.dark .footer{
 background:#000;
 }
 /* FOOTER */
