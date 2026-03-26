@@ -1,120 +1,112 @@
-🌸 Beauty Products Blog Website
-<p align="center"> Modern • Responsive • Animated • SEO Friendly Blog Website </p> <p align="center">
+🌸 Beauty Blog Website
+<p align="center"> <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" /> <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3" /> <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript" /> <img src="https://img.shields.io/badge/Responsive-Mobile%20Friendly-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Animations-AOS-purple?style=for-the-badge" /> </p>
+🌐 Live Demo
 
+🔗 Live Website:
+👉 https://your-blog-link.netlify.app/
 
+📧 Connect with me for collaboration
+<p align="center"> <a href="https://www.linkedin.com/in/priyanshu-kumar-b7148632b/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/priyanshu1234566" target="_blank"> <img src="https://img.shields.io/badge/GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://x.com/PriyanshuK33564" target="_blank"> <img src="https://img.shields.io/badge/Twitter-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /> </a> <a href="https://www.instagram.com/alone_in_life_823" target="_blank"> <img src="https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a> </p>
+🖼 Screenshots
 
+📌 Add screenshots inside /screenshots folder
 
+🏠 Home Page
 
+🌿 Organic Skincare Blog
 
+💄 Lip Care Tips
 
+🧴 Natural Face Mask
 
+📌 Project Overview
 
+The Beauty Blog Website is a modern and responsive blog designed to share beauty tips, skincare routines, and natural face mask recipes.
 
-</p>
-📖 Project Overview
+This project demonstrates:
 
-The Beauty Products Blog Website is a modern blogging platform that provides information about skincare products, makeup tips, and beauty routines.
+Modern HTML5 semantic structure
+Responsive CSS layout
+Interactive JavaScript features
+Scroll animations using AOS library
+Dark Mode Toggle
+Multi-page blog architecture
 
-This project was created to demonstrate frontend web development skills and digital marketing blog design with a clean layout, animations, and responsive design.
+The website is designed to look like a professional beauty blog platform.
 
-The website includes multiple pages such as Home, Blog, and Contact.
-
-✨ Key Features
-
-🌟 Modern and attractive UI design
-🌟 Glassmorphism style components
-🌟 Smooth animations and hover effects
-🌟 Fully responsive layout
-🌟 SEO optimized structure
-🌟 Blog article sections
-🌟 Contact form for user interaction
-
-🖥️ Website Pages
-Page	Description
-🏠 Home	Introduction to beauty products and featured blogs
-📰 Blog	Beauty tips, skincare guides, and makeup articles
-📩 Contact	User contact form
+✨ Features
+🌿 Organic Skincare Blog
+💄 Lip Care Tips Article
+🧴 Natural Face Mask Guide
+🌙 Dark Mode Toggle
+🎨 Responsive Mobile Design
+🖼 Image Gallery with Hover Animation
+🔗 Related Posts Section
+✨ Scroll Animations (AOS)
+🛠 Tech Stack
+🎨 Frontend
+HTML5
+CSS3
+JavaScript (ES6)
+🎨 Libraries
+Font Awesome Icons
+AOS Animation Library
 📂 Project Structure
-beauty-blog-website
+Beauty-Blog/
 │
 ├── index.html
-├── Post1.html
-├── contact.html
+├── post1.html
+├── post2.html
+├── post3.html
 │
-├── css
-│   └── style.css
+├── css/
+│   ├── style.css
 │
-├── js
-│   └── script.js
+├── js/
+│   ├── script.js
 │
-└── images
-    ├── skincare.jpg
-    ├── makeup.jpg
-    └── beauty.jpg
-🛠️ Technologies Used
-Technology	Purpose
-HTML5	Website Structure
-CSS3	Styling and layout
-JavaScript	Interactive functionality
-CSS Animations	UI effects
-Responsive Design	Mobile compatibility
-📸 Website Screenshots
-🏠 Home Page
-<img src="images/home-preview.png" width="900">
-📰 Blog Page
-<img src="images/blog-preview.png" width="900">
-📩 Contact Page
-<img src="images/contact-preview.png" width="900">
-🚀 Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/beauty-blog-website.git
-2️⃣ Open Project Folder
-cd beauty-blog-website
-3️⃣ Run the Website
+├── screenshots/
+│
+└── README.md
+⚙️ Installation Guide
+1️⃣ Clone Repository
+git clone https://github.com/your-username/beauty-blog.git
+cd beauty-blog
+2️⃣ Open Project
 
-Simply open:
+Simply open the project folder and run:
 
 index.html
 
-in your browser.
+or use Live Server in VS Code.
 
-🌐 Live Demo (GitHub Pages)
+🚀 Deployment
 
-After deploying the project on GitHub Pages, your site will look like this:
+You can deploy this project on:
 
-https://naykaa-nine.vercel.app/
-🎯 Learning Objectives
+Netlify
+Vercel
+GitHub Pages
 
-This project helps to learn:
+Steps:
 
-Website structure and layout design
-Blog website development
-Responsive web design
-UI animations
-Digital marketing blog presentation
-🔮 Future Improvements
-
-🚀 Add Admin Dashboard
-🚀 Add Blog Comment System
-🚀 Connect Database (MongoDB / Firebase)
-🚀 Add Login System
-🚀 Convert into Beauty E-commerce Store
-
+Push project to GitHub
+Connect GitHub repo to Netlify / Vercel
+Deploy website
+🔮 Future Enhancements
+🔍 Blog Search Feature
+💬 Comment System
+📊 Blog Analytics
+🧑‍💻 Admin Panel
+📱 PWA Support
+🌙 Advanced Dark Mode
 👨‍💻 Author
 
-Name: <b>PRIYANSHU KUMAR</b>
-Course: Digital Marketing / Web Development
-Project: Beauty Products Blog Website
+Priyanshu Kumar
 
-🤝 Contributing
+📧 Connect with me for collaboration
+⭐ If you like this project, give it a star!
 
-Contributions are welcome.
+📜 License
 
-If you want to improve the project:
-
-Fork the repository
-Create a new branch
-Submit a pull request
-⭐ Show Your Support
-
-If you like this project, please give it a star ⭐ on GitHub.
+This project is licensed under the MIT License.
