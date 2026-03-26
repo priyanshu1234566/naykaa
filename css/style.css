@@ -18,8 +18,11 @@ padding:40px 0;
 /* NAVBAR */
 
 nav{
+display:flex;
+justify-content:center;
+gap:30px;
 background:#222;
-text-align:center;
+
 padding:15px;
 }
 
@@ -29,6 +32,7 @@ margin:0 15px;
 text-decoration:none;
 font-weight:bold;
 transition:0.3s;
+font-weight:bold;
 }
 
 nav a:hover{
