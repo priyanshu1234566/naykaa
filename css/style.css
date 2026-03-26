@@ -215,29 +215,33 @@ font-size:13px;
 }
 
 
-/* DARK MODE */
+/* DARK MODE STYLE */
 
 .dark{
 background:#111;
 color:white;
 }
 
-.dark .post{
+.dark header{
 background:#222;
 }
 
-#darkToggle{
-position:absolute;
-right:20px;
-top:20px;
-padding:10px;
-border:none;
+.dark nav{
+background:#111;
+}
+
+.dark .container{
+color:#ddd;
+}
+
+.dark .related-card{
 background:#222;
 color:white;
-border-radius:50%;
-cursor:pointer;
 }
 
+.dark .footer{
+background:#000;
+}
 
 
 /* FOOTER */
