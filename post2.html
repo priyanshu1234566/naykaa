@@ -22,6 +22,9 @@ href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
 <header>
 <h1>Best Lip Care Tips</h1>
 <p>Simple tips for soft, healthy and pink lips</p>
+<button id="darkModeToggle">
+<i class="fas fa-moon"></i>
+</button>
 </header>
 
 <nav>
@@ -195,6 +198,16 @@ naturally beautiful.
 AOS.init({
 duration:1000
 });
+
+const toggleBtn = document.getElementById("darkModeToggle");
+
+toggleBtn.onclick = function(){
+
+document.body.classList.toggle("dark-mode");
+
+}
+
+
 </script>
 
 </body>
