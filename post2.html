@@ -20,6 +20,7 @@ href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
 <body>
 
 <header>
+
 <h1>Best Lip Care Tips</h1>
 <p>Simple tips for soft, healthy and pink lips</p>
 
@@ -146,7 +147,7 @@ naturally beautiful.
 
 <div class="related-card">
 
-<img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc">
+<img src="./image/21.jpg">
 
 <h3>Natural Face Mask</h3>
 
@@ -198,23 +199,17 @@ naturally beautiful.
 
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 <script>
+
 AOS.init({
 duration:1000
 });
 
 const toggleBtn = document.getElementById("darkModeToggle");
 
-if(toggleBtn){
-
-toggleBtn.addEventListener("click", function(){
-
+toggleBtn.addEventListener("click", () => {
 document.body.classList.toggle("dark-mode");
-
 });
-
-}
 
 </script>
 

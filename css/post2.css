@@ -38,6 +38,55 @@ margin-top:5px;
 header p{
 font-size:18px;
 opacity:0.9;
+align-self:flex-start;
+}
+
+/* HEADER */
+
+header{
+background:#ff2f7a;
+color:white;
+text-align:center;
+padding:40px 20px;
+position:relative;
+}
+
+/* DARK MODE BUTTON */
+
+#darkModeToggle{
+position:absolute;
+right:20px;
+top:20px;
+background:white;
+border:none;
+padding:10px 12px;
+border-radius:50%;
+cursor:pointer;
+font-size:18px;
+transition:0.3s;
+}
+
+#darkModeToggle:hover{
+transform:scale(1.1);
+}
+
+/* DARK MODE STYLE */
+
+.dark-mode{
+background:#111;
+color:white;
+}
+
+.dark-mode nav{
+background:#222;
+}
+
+.dark-mode .container{
+background:#111;
+}
+
+.dark-mode .footer{
+background:#000;
 }
 
 /* NAVBAR */
