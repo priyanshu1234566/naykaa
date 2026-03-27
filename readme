@@ -1,56 +1,41 @@
 🌸 Beauty Blog Website
-<p align="center"> <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" /> <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3" /> <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript" /> <img src="https://img.shields.io/badge/Responsive-Mobile%20Friendly-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Animations-AOS-purple?style=for-the-badge" /> </p>
+<p align="center"> <b>Modern • Responsive • Animated Beauty Blog Platform</b> </p> <p align="center"> <img src="https://img.shields.io/badge/HTML5-Structure-orange?style=for-the-badge&logo=html5"/> <img src="https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css3"/> <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript"/> <img src="https://img.shields.io/badge/Responsive-Mobile%20Friendly-success?style=for-the-badge"/> <img src="https://img.shields.io/badge/Animations-AOS-purple?style=for-the-badge"/> </p>
 🌐 Live Demo
-
-🔗 Live Website:
-👉 https://your-blog-link.netlify.app/
-
-📧 Connect with me for collaboration
-<p align="center"> <a href="https://www.linkedin.com/in/priyanshu-kumar-b7148632b/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/priyanshu1234566" target="_blank"> <img src="https://img.shields.io/badge/GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://x.com/PriyanshuK33564" target="_blank"> <img src="https://img.shields.io/badge/Twitter-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /> </a> <a href="https://www.instagram.com/alone_in_life_823" target="_blank"> <img src="https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a> </p>
-🖼 Screenshots
-
-📌 Add screenshots inside /screenshots folder
-
-🏠 Home Page
-
-🌿 Organic Skincare Blog
-
-💄 Lip Care Tips
-
-🧴 Natural Face Mask
-
+<p align="center"> 🔗 <b>Live Website</b> <br><br> 👉 <a href="https://your-blog-link.netlify.app/" target="_blank">Visit Beauty Blog</a> </p>
 📌 Project Overview
 
-The Beauty Blog Website is a modern and responsive blog designed to share beauty tips, skincare routines, and natural face mask recipes.
+The Beauty Blog Website is a modern and responsive blogging platform designed to share:
 
-This project demonstrates:
+🌿 Skincare routines
+💄 Makeup tips
+🧴 Natural beauty remedies
 
-Modern HTML5 semantic structure
-Responsive CSS layout
-Interactive JavaScript features
-Scroll animations using AOS library
-Dark Mode Toggle
-Multi-page blog architecture
+This project demonstrates a professional frontend structure, combining clean UI design with smooth animations and responsive layout.
 
-The website is designed to look like a professional beauty blog platform.
+✨ Key Features
 
-✨ Features
-🌿 Organic Skincare Blog
-💄 Lip Care Tips Article
-🧴 Natural Face Mask Guide
-🌙 Dark Mode Toggle
-🎨 Responsive Mobile Design
-🖼 Image Gallery with Hover Animation
-🔗 Related Posts Section
-✨ Scroll Animations (AOS)
+✔ Organic Skincare Blog
+✔ Lip Care Tips Article
+✔ Natural Face Mask Guide
+✔ 🌙 Dark Mode Toggle
+✔ 📱 Fully Responsive Design
+✔ 🖼 Image Hover Animations
+✔ 🔗 Related Posts Section
+✔ ✨ Scroll Animations (AOS Library)
+
+🖼 Screenshots
+<p align="center"> <img src="screenshots/home.png" width="800"><br><br> <img src="screenshots/blog.png" width="800"><br><br> <img src="screenshots/contact.png" width="800"> </p>
+
+📌 Add your screenshots inside the /screenshots folder
+
 🛠 Tech Stack
 🎨 Frontend
 HTML5
 CSS3
 JavaScript (ES6)
-🎨 Libraries
-Font Awesome Icons
-AOS Animation Library
+📚 Libraries
+Font Awesome (Icons)
+AOS (Animate On Scroll)
 📂 Project Structure
 Beauty-Blog/
 │
@@ -60,10 +45,10 @@ Beauty-Blog/
 ├── post3.html
 │
 ├── css/
-│   ├── style.css
+│   └── style.css
 │
 ├── js/
-│   ├── script.js
+│   └── script.js
 │
 ├── screenshots/
 │
@@ -72,13 +57,13 @@ Beauty-Blog/
 1️⃣ Clone Repository
 git clone https://github.com/your-username/beauty-blog.git
 cd beauty-blog
-2️⃣ Open Project
+2️⃣ Run Project
 
-Simply open the project folder and run:
+Simply open:
 
 index.html
 
-or use Live Server in VS Code.
+or use Live Server (VS Code).
 
 🚀 Deployment
 
@@ -87,25 +72,28 @@ You can deploy this project on:
 Netlify
 Vercel
 GitHub Pages
-
 Steps:
-
 Push project to GitHub
-Connect GitHub repo to Netlify / Vercel
-Deploy website
+Connect repo to Netlify / Vercel
+Deploy instantly
 🔮 Future Enhancements
-🔍 Blog Search Feature
+
+🚀 Blog Search Feature
 💬 Comment System
 📊 Blog Analytics
-🧑‍💻 Admin Panel
+🧑‍💻 Admin Dashboard
 📱 PWA Support
 🌙 Advanced Dark Mode
+
 👨‍💻 Author
 
 Priyanshu Kumar
 
-📧 Connect with me for collaboration
-⭐ If you like this project, give it a star!
+📬 Connect With Me
+<p align="center"> <a href="https://www.linkedin.com/in/priyanshu-kumar-b7148632b/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/> </a> <a href="https://github.com/priyanshu1234566" target="_blank"> <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/> </a> <a href="https://x.com/PriyanshuK33564" target="_blank"> <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter"/> </a> <a href="https://www.instagram.com/alone_in_life_823" target="_blank"> <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram"/> </a> </p>
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub and share it.
 
 📜 License
 
