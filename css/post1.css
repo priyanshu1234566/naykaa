@@ -405,3 +405,20 @@ color:#ff6fa5;
 .footer-contact .fa-whatsapp{
 color:#25D366;
 }
+/* Contact Us Hover Effect */
+
+.footer-contact i{
+margin-right:10px;
+color:#ff6fa5;
+font-size:16px;
+transition:0.3s;
+}
+
+.footer-contact i:hover{
+color:#ffffff;
+transform:scale(1.3);
+}
+.footer-contact p:hover{
+color:#ff6fa5;
+cursor:pointer;
+}
